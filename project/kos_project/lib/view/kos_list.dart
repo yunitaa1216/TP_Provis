@@ -25,7 +25,7 @@ class DaftarKosDetail extends StatelessWidget {
     final daftarKosDetailProvider = Provider.of<DaftarKosDetailProvider>(context);
     return Scaffold(
       appBar: AppBar(
-        title: Text(nameKos, style: TextStyle(color: Colors.black)),
+        title: Text("Detail Kos", style: TextStyle(color: Colors.black)),
         backgroundColor: Color(0xFFEDDACF),
         iconTheme: IconThemeData(color: Colors.black),
         centerTitle: true,
